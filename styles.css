@@ -6,3 +6,27 @@
     font-weight: bold;
     font-style: normal;
 }
+
+html{
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    min-height:100%;
+}
+.display-card {
+    flex: 1;
+    display: flex;
+    align-items:center;
+    background-image: url("images/lighthouse.jpg");
+    background-size:cover;
+}
+
+.form-section {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
