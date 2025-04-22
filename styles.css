@@ -21,7 +21,8 @@ body {
     display: flex;
     align-items:center;
     background-image: url("images/lighthouse.jpg");
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
 }
 
 .form-section {
@@ -33,12 +34,23 @@ body {
 }
 
 .header {
-    flex: 1
-    
+    flex: 1;
+    box-sizing: border-box;
+    background-color: #F9FAFB;   
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
 }
 .form {
-    flex: 0.8
+    flex: 1;
 }
 .footer {
-    flex: 1
+    flex: 1;
+    background-color: #F9FAFB; 
+    width: 100%;
+    box-sizing: border-box;
+    padding: 32px;
 }
