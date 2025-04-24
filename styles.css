@@ -22,10 +22,12 @@ body {
 .display-card {
     flex: 1.1;
     display: flex;
-    align-items:center;
+    align-items:start;
     background-image: url("images/lighthouse.jpg");
     background-size: cover;
     background-position: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .form-section {
@@ -116,4 +118,45 @@ form {
 
 .footer-text {
     margin-top: 28px;
+}
+
+.logo-container {
+    width: 100%;
+    height: 33.333%;
+    display: flex;
+    align-items: end;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 120px;
+    
+}
+.logo-header img {
+    height: 70%;
+}
+
+.logo-text {
+    font-family: norse;
+    color: white;
+    font-size: calc((6rem));
+    margin: 0;
+    line-height: 1;
+    padding-top: 30px;
+}
+
+.logo-footer {
+    color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+    margin: 12px 0;
+}
+
+.logo-footer a{
+    color:rgba(255, 255, 255, 0.5);
 }
