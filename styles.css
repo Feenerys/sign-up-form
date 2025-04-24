@@ -9,6 +9,8 @@
 
 html{
     height: 100%;
+    font-family: system-ui, sans-serif;
+
 }
 body {
     display: flex;
