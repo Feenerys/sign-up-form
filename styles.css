@@ -78,3 +78,16 @@ form {
     flex-direction: column;
     gap: 16px;
 }
+
+.create-account-btn {
+    background-color: #596D48;
+    color: white;
+    padding:10px 36px ;
+    border: none;
+    border-radius: 6px;
+}
+
+.log-in-btn {
+    text-decoration: none;
+    color: #596D48;
+}
