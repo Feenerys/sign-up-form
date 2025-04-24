@@ -18,6 +18,7 @@ body {
     margin: 0;
     min-height:100%;
 }
+
 .display-card {
     flex: 1;
     display: flex;
@@ -41,29 +42,38 @@ body {
     background-color: #F9FAFB;   
     width: 100%;
     padding: 32px;
+    padding-left: 42px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: end;
+    font-weight: 600;
 }
 .form {
     flex: 1;
     width: 100%;
-    padding: 0 32px 32px 32px;
+    padding: 0 32px 24px 42px;
     box-sizing: border-box;
+
 }
+.form p {
+    font-weight: 600;
+}
+
 .footer {
     flex: 1;
     background-color: #F9FAFB; 
     width: 100%;
     box-sizing: border-box;
-    padding: 32px;
+    padding: 24px 42px;
+    box-shadow: 0px 4px 7px -6px inset;
 }
 
 form {
     display: flex;
     gap: 38px;
 }
+
 .input-field {
     display: flex;
     flex-direction: column;
@@ -80,7 +90,7 @@ form {
 }
 
 .create-account-btn {
-    background-color: #596D48;
+    background-color: #5d6d4e;
     color: white;
     padding:10px 36px ;
     border: none;
@@ -89,5 +99,9 @@ form {
 
 .log-in-btn {
     text-decoration: none;
-    color: #596D48;
+    color: #5d6d4e;
+}
+
+.footer-text {
+    margin-top: 28px;
 }
