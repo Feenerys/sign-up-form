@@ -160,8 +160,11 @@ form {
 .logo-footer a{
     color:rgba(255, 255, 255, 0.5);
 }
-/* TODO: Make password input fields turn red if not input is given 
-    using :invalid
-*/
+
+.input-field [type = "password"]:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+    box-shadow: none;
+}
 
 /* TODO: Add subtle blue border on on selected input using :focus */
