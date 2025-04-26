@@ -97,6 +97,11 @@ form {
     padding: 4px 8px;
 }
 
+.input-field input:focus {
+    border: 1px solid #1b46adb8;
+    box-shadow: 2px 4px 7px -6px black;
+}
+
 .form .col {
     display: flex;
     flex-direction: column;
@@ -166,5 +171,3 @@ form {
     color: #D55C5F;
     box-shadow: none;
 }
-
-/* TODO: Add subtle blue border on on selected input using :focus */
