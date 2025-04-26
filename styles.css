@@ -98,7 +98,7 @@ form {
 }
 
 .input-field input:focus {
-    border: 1px solid #1b46adb8;
+    outline: 1px solid #1b46adb8;
     box-shadow: 2px 4px 7px -6px black;
 }
 
@@ -169,5 +169,4 @@ form {
 .input-field [type = "password"]:invalid {
     border: 1px solid #D55C5F;
     color: #D55C5F;
-    box-shadow: none;
 }
