@@ -99,13 +99,19 @@ form {
 
 .input-field input:focus {
     outline: 1px solid #1b46adb8;
-    box-shadow: 2px 4px 7px -6px black;
+    box-shadow: 3px 3px 11px -6px black;
 }
 
 .form .col {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.form .col .row {
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
 }
 
 .create-account-btn {
